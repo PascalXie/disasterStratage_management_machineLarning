@@ -127,7 +127,7 @@ bool ReadData(string filename1)
 			}
 			else if(status_.size()!=0)
 			{
-				GLOBAL_write<<IDCounter<<" ";
+				GLOBAL_write<<IDCounter<<" "<<d/m<<" ";
 				for(int i=0;i<status_.size();i++)
 				{
 					GLOBAL_write<<time_[i]<<" ";
